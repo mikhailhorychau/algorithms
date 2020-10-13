@@ -1,4 +1,4 @@
-const mockArray = (count = 100) => Array(count).fill(0).map(el => el = Math.round(Math.random() * 100));
+const mockArray = (count = 100) => Array(count).fill(0).map(el => el = Math.round(Math.random() * 10000));
 
 const findMaxNumberInArray = (array) => {
     let max = {

@@ -1,0 +1,22 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --slow 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikhailhorychau/algorithms.git"
+  },
+  "author": "Mikhail Horychau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikhailhorychau/algorithms/issues"
+  },
+  "homepage": "https://github.com/mikhailhorychau/algorithms#readme"
+}

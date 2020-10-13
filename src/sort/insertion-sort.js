@@ -1,5 +1,3 @@
-const arrayHelper = require('../helpers/arrays.js');
-
 const insertionSort = (array) => {
     let tempArray = [...array];
     for(let j = 1; j < tempArray.length; j++) {
@@ -13,14 +11,6 @@ const insertionSort = (array) => {
     };
     return tempArray;
 };
-
-const test = () => {
-    const testArray = arrayHelper.mockArray();
-    console.log(testArray);
-    console.log(insertionSort(testArray));
-}
-
-test();
 
 module.exports = {
     insertionSort
